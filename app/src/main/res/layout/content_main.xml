@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ev.exam.arduinobt.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Boulevard"
+            android:id="@+id/polyvard"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_x="574dp"
+            android:layout_y="635dp"
+            android:layout_toRightOf="@+id/pstationp3"
+            android:layout_toEndOf="@+id/pstationp3"
+            android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="111dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stores"
+        android:id="@+id/store_right"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_x="729dp"
+        android:layout_y="526dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toLeftOf="@+id/polyvard"
+        android:layout_toStartOf="@+id/polyvard"
+        android:layout_marginRight="61dp"
+        android:layout_marginEnd="61dp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Park"
+        android:id="@+id/park"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_x="600dp"
+        android:layout_y="330dp"
+        android:layout_marginBottom="217dp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="122dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="P.Station"
+        android:id="@+id/pstationp3"
+        android:textSize="20sp"
+        android:gravity="center|top"
+        android:layout_x="542dp"
+        android:layout_y="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="450dp" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="109dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stores"
+        android:id="@+id/store_left"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_x="419dp"
+        android:layout_y="526dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toLeftOf="@+id/polyvard"
+        android:layout_toStartOf="@+id/polyvard"
+        android:layout_marginRight="61dp"
+        android:layout_marginEnd="61dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Exhibites"
+        android:id="@+id/exibites"
+        android:layout_x="1175dp"
+        android:layout_y="353dp" />
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="42dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mosque"
+        android:id="@+id/mosque"
+        android:layout_x="660dp"
+        android:layout_y="107dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shops"
+        android:id="@+id/shops_right"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_x="840dp"
+        android:layout_y="660dp"
+        android:layout_toRightOf="@+id/pstationp3"
+        android:layout_toEndOf="@+id/pstationp3"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shops"
+        android:id="@+id/shops_left"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_x="319dp"
+        android:layout_y="664dp"
+        android:layout_toRightOf="@+id/pstationp3"
+        android:layout_toEndOf="@+id/pstationp3"
+        android:layout_alignParentBottom="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="570dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/on_off"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_x="1196dp"
+        android:layout_y="570dp"
+        android:src="@drawable/power_off" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="500dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="1196dp"
+        android:layout_y="500dp"
+        android:src="@drawable/car_off" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="3dp"
+        android:layout_y="459dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="3dp"
+        android:layout_y="459dp"
+        android:src="@drawable/p4_off" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="3dp"
+        android:layout_y="399dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="3dp"
+        android:layout_y="399dp"
+        android:src="@drawable/p3_off" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="3dp"
+        android:layout_y="336dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+
+        android:layout_x="3dp"
+        android:layout_y="336dp"
+        android:src="@drawable/p2_off" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="3dp"
+        android:layout_y="274dp"
+        android:clipToPadding="false"
+        android:padding="0dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="3dp"
+        android:layout_y="274dp"
+        android:src="@drawable/p1_off"
+        android:layout_margin="0dp"
+        android:padding="0dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="202dp"
+        android:layout_y="174dp"
+        android:clipToPadding="false"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="713dp"
+        android:layout_y="174dp"
+        android:clipToPadding="false"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="430dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+
+        android:src="@drawable/random_off" />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Automotive World"
+        android:id="@+id/automotiveworld"
+        android:layout_x="792dp"
+        android:layout_y="209dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Construction World"
+        android:id="@+id/constructionworld"
+        android:layout_x="280dp"
+        android:layout_y="209dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="640dp"
+        android:clipToPadding="false">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/network_bt_off"
+        app:backgroundTint="@android:color/transparent"
+      />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/p1ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="640dp"
+        android:clipToPadding="false"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/p2ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/circle"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:layout_x="1196dp"
+        android:layout_y="640dp"
+        android:clipToPadding="false"></LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p3s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/p3_on"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="1196dp"
+        android:layout_y="198dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p4s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/p4_on"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_x="1196dp"
+        android:layout_y="261dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+
+        android:src="@drawable/p1_on"
+        android:layout_x="1196dp"
+        android:layout_y="72dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="@android:color/transparent"
+
+        android:src="@drawable/p2_on"
+        android:layout_x="1196dp"
+        android:layout_y="133dp" />
+
+
+</AbsoluteLayout>

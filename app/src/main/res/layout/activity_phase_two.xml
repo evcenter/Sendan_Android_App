@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ev.exam.arduinobt.Phase_two">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/phase_two" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/up"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="70dp"
+        android:id="@+id/unit20up" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/down"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="135dp"
+        android:id="@+id/unit20down" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/up"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="210dp"
+        android:id="@+id/unit19up" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/down"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="275dp"
+        android:id="@+id/unit19down" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/up"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="350dp"
+        android:id="@+id/unit18up" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/down"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="415dp"
+        android:id="@+id/unit18down" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/up"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="490dp"
+        android:id="@+id/unit17up" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/down"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="160dp"
+        android:layout_y="555dp"
+        android:id="@+id/unit17down" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIT 20"
+        android:id="@+id/textView10"
+        android:layout_x="226dp"
+        android:layout_y="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIT 19"
+        android:id="@+id/textView11"
+        android:layout_x="225dp"
+        android:layout_y="203dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIT 18"
+        android:id="@+id/textView12"
+        android:layout_x="225dp"
+        android:layout_y="346dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIT 17"
+        android:id="@+id/textView13"
+        android:layout_x="223dp"
+        android:layout_y="482dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shops"
+        android:id="@+id/textView9"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_x="544dp"
+        android:layout_y="663dp"
+        android:layout_toRightOf="@+id/pstationp3"
+        android:layout_toEndOf="@+id/pstationp3"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="266dp"
+        android:layout_height="213dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stores"
+        android:id="@+id/textView14"
+        android:layout_x="761dp"
+        android:layout_y="370dp"
+        android:gravity="center" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/down"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="1026dp"
+        android:layout_y="465dp"
+        android:id="@+id/storedownp2" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/up"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="1026dp"
+        android:layout_y="400dp"
+        android:id="@+id/storeupp2" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/left"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="14dp"
+        android:layout_y="300dp"
+        android:id="@+id/unit20up" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/right"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        app:backgroundTint="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="61dp"
+        android:layout_x="14dp"
+        android:layout_y="365dp"
+        android:id="@+id/unit20down" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIT 20"
+        android:id="@+id/textView17"
+        android:layout_x="67dp"
+        android:layout_y="65dp" />
+</AbsoluteLayout>
+
+
